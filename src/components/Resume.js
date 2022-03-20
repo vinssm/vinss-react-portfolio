@@ -5,7 +5,7 @@ function Resume() {
     return (
         <section className="mb-5">
             <h2 className="resume">Resume</h2>
-            <div className="resume">Download Here <a href={MyPDF} download="My_File.pdf"> Resume </a></div>
+            <div className="resume">Download <a href={MyPDF} download="My_File.pdf"> Resume </a></div>
             <div className="resume">
                 <div className="resume">
                     <h3> <b>UI Skills</b> </h3>
