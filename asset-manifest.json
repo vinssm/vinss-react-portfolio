@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/vinss-react-portfolio/static/css/main.6bf6d911.css",
-    "main.js": "/vinss-react-portfolio/static/js/main.26c72db2.js",
+    "main.css": "/vinss-react-portfolio/static/css/main.02a8305a.css",
+    "main.js": "/vinss-react-portfolio/static/js/main.672d5ac3.js",
     "static/js/787.d00fe0a2.chunk.js": "/vinss-react-portfolio/static/js/787.d00fe0a2.chunk.js",
-    "static/media/Photography.JPG": "/vinss-react-portfolio/static/media/Photography.a252eccb0e3016595cb3.JPG",
+    "static/media/blogRecipes.jpg": "/vinss-react-portfolio/static/media/blogRecipes.8006ccd390ddb1dc796f.jpg",
+    "static/media/Quiz.gif": "/vinss-react-portfolio/static/media/Quiz.f809ce631baf42e3f7af.gif",
+    "static/media/weatherDashboard.png": "/vinss-react-portfolio/static/media/weatherDashboard.a28102ea771e0a650173.png",
     "static/media/vinay.pdf": "/vinss-react-portfolio/static/media/vinay.1a887a071433105ef764.pdf",
     "static/media/profile.jpg": "/vinss-react-portfolio/static/media/profile.77c20cf35dfaafc971c5.jpg",
+    "static/media/Photography.jpg": "/vinss-react-portfolio/static/media/Photography.d6cc83c2d0538c050ccc.jpg",
+    "static/media/workdayScheduler.png": "/vinss-react-portfolio/static/media/workdayScheduler.872879f83b2989a3732e.png",
     "static/media/github.png": "/vinss-react-portfolio/static/media/github.44eee0c4a6c25b0d7347.png",
     "index.html": "/vinss-react-portfolio/index.html",
-    "main.6bf6d911.css.map": "/vinss-react-portfolio/static/css/main.6bf6d911.css.map",
-    "main.26c72db2.js.map": "/vinss-react-portfolio/static/js/main.26c72db2.js.map",
+    "main.02a8305a.css.map": "/vinss-react-portfolio/static/css/main.02a8305a.css.map",
+    "main.672d5ac3.js.map": "/vinss-react-portfolio/static/js/main.672d5ac3.js.map",
     "787.d00fe0a2.chunk.js.map": "/vinss-react-portfolio/static/js/787.d00fe0a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bf6d911.css",
-    "static/js/main.26c72db2.js"
+    "static/css/main.02a8305a.css",
+    "static/js/main.672d5ac3.js"
   ]
 }
