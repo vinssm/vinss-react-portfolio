@@ -1,89 +1,65 @@
 import React, {useState} from 'react';
 import { validateEmail, capitalizeFirstLetter } from "../utils/helpers";
 
-
-function Contact() {
+function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-  const { name, email, message } = formState;
-  const [errorMessage, setErrorMessage] = useState('');
 
-  function handleChange(e) {
+  const [errorMessage, setErrorMessage] = useState('');
+  const { name, email, message } = formState;
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!errorMessage) {
+      console.log('Submit Form', formState);
+    }
+  };
+
+  const handleChange = (e) => {
     if (e.target.name === 'email') {
       const isValid = validateEmail(e.target.value);
-
       if (!isValid) {
-        setErrorMessage('Please enter a valid email');
+        setErrorMessage('Your email is invalid.');
       } else {
         setErrorMessage('');
       }
-    }
-    else {
+    } else {
       if (!e.target.value.length) {
-        setErrorMessage(`${capitalizeFirstLetter(e.target.name)} is required`);
+        setErrorMessage(`${e.target.name} is required.`);
       } else {
         setErrorMessage('');
       }
     }
     if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value })
+      setFormState({ ...formState, [e.target.name]: e.target.value });
+      console.log('Handle Form', formState);
     }
-  }
-
-  async function handleSubmit(e) {
-    e.preventDefault();
-
-    await fetch(`/send`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        name: formState.name,
-        email: formState.email,
-        message: formState.message
-      })
-    })
-    .then((res) => res.json())
-    .then(async (res) => {
-      const resData = await res;
-      if (resData.status === "success") {
-        alert("Message Sent!");
-      } else if (resData.status === "fail") {
-        alert("Message failed to send");
-      }
-    })
-    .catch(err => {
-      console.log("Error: " + err)
-    })
-  }
+  };
 
   return (
-    <div className="page-div">
-      <h2>Contact Me</h2>
-      <form className="form pBody" onSubmit={handleSubmit}>
+    <section>
+      <h1 data-testid="h1tag">Contact me</h1>
+      <form id="contact-form" onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="name" className="contact-el">Name:</label><br />
-          <input type="text" name="name" className="contact-el" defaultValue={name} onBlur={handleChange} />
+          <label htmlFor="name">Name:</label>
+          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
         </div>
         <div>
-          <label htmlFor="email">Email address:</label><br />
-          <input type="email" name="email" className="contact-el" defaultValue={email} onBlur={handleChange} />
+          <label htmlFor="email">Email address:</label>
+          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
         </div>
         <div>
-          <label htmlFor="message" className="contact-el">Message:</label><br />
-          <textarea name="message" className="contact-el" defaultValue={message} onBlur={handleChange} />
+          <label htmlFor="message">Message:</label>
+          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
         </div>
         {errorMessage && (
           <div>
-            <p className="errorMsg contact-el">
-            
-              {errorMessage}</p>
+            <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button type="submit" className="submit-contact contact-el">Submit</button>
+        <button data-testid="button" type="submit">Submit</button>
       </form>
-    </div>
+    </section>
   );
 }
 
-export default Contact;
+export default ContactForm;

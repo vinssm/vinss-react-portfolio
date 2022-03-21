@@ -15,7 +15,7 @@ function Footer() {
       name: 'linkedin',
       description: 'Icon from linkedin.com that links to external site.',
       src: linkedinIcon,
-      url: "https://www.linkedin.com"
+      url: "https://www.linkedin.com/in/naga-v/"
     },
     {
       name: 'Email',

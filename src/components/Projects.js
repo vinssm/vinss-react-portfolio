@@ -14,12 +14,12 @@ function Projects() {
         }
     ]
     return(
-        <div className="all-projects">
+        <div className="mb-5">
           {projects.map(project => (
-            <div className="single-project" key={project.title}>
+            <div className="proj" key={project.title}>
               <h3>{project.title}</h3>
               <div
-                className="project-div">               
+                className="proj">               
                   <img src={Photography} alt="Pic"></img>
                 <p className="project-text project-description">{project.description}</p>
                 <p className="project-text project-tech">{project.technologies}</p>                
