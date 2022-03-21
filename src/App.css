@@ -224,7 +224,19 @@ text-align: right;
   width: 60%;
 }
 
-.proj {
+.projects{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.proj{
+  text-align: center;
+  margin: 20px;
+}
+
+.projs {
   width: 300px;
   height: 300px;
   border: 3px solid var(--dark);
@@ -234,11 +246,11 @@ text-align: right;
   justify-content: space-between;
 }
 
-.project-text {
+.projText {
   color: white;
 }
 
-.project-description {
+.projDes {
   margin-top: 20px;
 }
 

@@ -14,7 +14,11 @@ function Nav(props) {
 
     return (
       <header>
-          <h1>Vinay Vallabhaneni</h1>
+          <h1>
+                <a data-testid="link" href="/">
+                <span role="img" aria-label=""> 🏃 </span> Vinay Vallabhaneni 🏃
+                </a>              
+            </h1>
           <nav>
               <ul>
                   {tabs.map(tab => (
