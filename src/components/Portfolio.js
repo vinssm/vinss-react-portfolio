@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Photography from "../assets/images/Photography.jpg"
+import Photography from '../assets/images/Photography.jpg'
 
 function Portfolio() {
     const [projects] = useState([
@@ -50,18 +50,20 @@ function Portfolio() {
   }
     ]);
     return(
-      <div className="projects">
-        <div className="mb-5">
-          {projects.map(project => (
-            <div className="proj" key={project.title}>
+      <div className="container">
+        <h2>Vinay Portfolio</h2>
+        <div className="proj">
+          {projects.map((project, i) => 
+            <div className="projs" key={i}>
+              <img src={require(`../assets/images/${project.image}`)} alt={project.alt} />
               <h3>{project.title}</h3>
-              <div className="projs">              
-               <img src={require(`../assets/images/${project.image}`).default} alt={project.alt} />          
+              <div className="projs">                       
                 <p className="projText projDes">{project.description}</p>
-                <p className="projText projDes">{project.technologies}</p>                
+                <p className="projText projDes">{project.technologies}</p>                               
               </div>
+              <a href={project.url} target="_blank">View Site</a> 
             </div>
-          ))}
+          )}
             </div>
         </div>
       )
