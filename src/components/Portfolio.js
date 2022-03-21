@@ -1,7 +1,7 @@
 import React from 'react';
 import Photography from "../assets/images/Photography.JPG"
 
-function Projects() {
+function Portfolio() {
     const projects = [
         {
             image: 'Photography.JPG',
@@ -30,4 +30,4 @@ function Projects() {
       )
     }
     
-export default Projects;
+export default Portfolio;

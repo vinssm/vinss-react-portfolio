@@ -4,7 +4,7 @@ import Nav from './components/Nav.js';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Projects from './components/Projects';
+import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 
 
@@ -15,8 +15,8 @@ import Resume from './components/Resume';
     function renderPage() {
       switch(currentPage) {
         default: return <About />
-        case "Projects":
-          return <Projects/>;
+        case "Portfolio":
+          return <Portfolio/>;
         case "Contact":
           return <Contact/>;
           case "Resume":

@@ -1,7 +1,7 @@
 import React, { useEffect }  from 'react';
 
 function Nav(props) {
-    const tabs = ['About', 'Contact', 'Projects', 'Resume'];
+    const tabs = ['About', 'Contact', 'Portfolio', 'Resume'];
 
     const {
       currentPage,
