@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vinss-react-portfolio/static/css/main.6bf6d911.css",
-    "main.js": "/vinss-react-portfolio/static/js/main.9f043e3c.js",
+    "main.js": "/vinss-react-portfolio/static/js/main.513b4913.js",
     "static/js/787.d00fe0a2.chunk.js": "/vinss-react-portfolio/static/js/787.d00fe0a2.chunk.js",
     "static/media/Photography.JPG": "/vinss-react-portfolio/static/media/Photography.a252eccb0e3016595cb3.JPG",
     "static/media/vinay.pdf": "/vinss-react-portfolio/static/media/vinay.1a887a071433105ef764.pdf",
@@ -9,11 +9,11 @@
     "static/media/github.png": "/vinss-react-portfolio/static/media/github.44eee0c4a6c25b0d7347.png",
     "index.html": "/vinss-react-portfolio/index.html",
     "main.6bf6d911.css.map": "/vinss-react-portfolio/static/css/main.6bf6d911.css.map",
-    "main.9f043e3c.js.map": "/vinss-react-portfolio/static/js/main.9f043e3c.js.map",
+    "main.513b4913.js.map": "/vinss-react-portfolio/static/js/main.513b4913.js.map",
     "787.d00fe0a2.chunk.js.map": "/vinss-react-portfolio/static/js/787.d00fe0a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6bf6d911.css",
-    "static/js/main.9f043e3c.js"
+    "static/js/main.513b4913.js"
   ]
 }
