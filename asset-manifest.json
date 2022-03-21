@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/vinss-react-portfolio/static/css/main.7429f2e7.css",
+    "main.js": "/vinss-react-portfolio/static/js/main.883a4374.js",
+    "static/js/787.d00fe0a2.chunk.js": "/vinss-react-portfolio/static/js/787.d00fe0a2.chunk.js",
+    "static/media/Photography.JPG": "/vinss-react-portfolio/static/media/Photography.a252eccb0e3016595cb3.JPG",
+    "static/media/vinay.pdf": "/vinss-react-portfolio/static/media/vinay.1a887a071433105ef764.pdf",
+    "static/media/profile.jpg": "/vinss-react-portfolio/static/media/profile.77c20cf35dfaafc971c5.jpg",
+    "static/media/github.png": "/vinss-react-portfolio/static/media/github.44eee0c4a6c25b0d7347.png",
+    "index.html": "/vinss-react-portfolio/index.html",
+    "main.7429f2e7.css.map": "/vinss-react-portfolio/static/css/main.7429f2e7.css.map",
+    "main.883a4374.js.map": "/vinss-react-portfolio/static/js/main.883a4374.js.map",
+    "787.d00fe0a2.chunk.js.map": "/vinss-react-portfolio/static/js/787.d00fe0a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7429f2e7.css",
+    "static/js/main.883a4374.js"
+  ]
+}
