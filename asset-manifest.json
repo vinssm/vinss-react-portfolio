@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vinss-react-portfolio/static/css/main.02a8305a.css",
-    "main.js": "/vinss-react-portfolio/static/js/main.672d5ac3.js",
+    "main.css": "/vinss-react-portfolio/static/css/main.9fe9631b.css",
+    "main.js": "/vinss-react-portfolio/static/js/main.e96c91c6.js",
     "static/js/787.d00fe0a2.chunk.js": "/vinss-react-portfolio/static/js/787.d00fe0a2.chunk.js",
     "static/media/blogRecipes.jpg": "/vinss-react-portfolio/static/media/blogRecipes.8006ccd390ddb1dc796f.jpg",
     "static/media/Quiz.gif": "/vinss-react-portfolio/static/media/Quiz.f809ce631baf42e3f7af.gif",
@@ -12,12 +12,12 @@
     "static/media/workdayScheduler.png": "/vinss-react-portfolio/static/media/workdayScheduler.872879f83b2989a3732e.png",
     "static/media/github.png": "/vinss-react-portfolio/static/media/github.44eee0c4a6c25b0d7347.png",
     "index.html": "/vinss-react-portfolio/index.html",
-    "main.02a8305a.css.map": "/vinss-react-portfolio/static/css/main.02a8305a.css.map",
-    "main.672d5ac3.js.map": "/vinss-react-portfolio/static/js/main.672d5ac3.js.map",
+    "main.9fe9631b.css.map": "/vinss-react-portfolio/static/css/main.9fe9631b.css.map",
+    "main.e96c91c6.js.map": "/vinss-react-portfolio/static/js/main.e96c91c6.js.map",
     "787.d00fe0a2.chunk.js.map": "/vinss-react-portfolio/static/js/787.d00fe0a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02a8305a.css",
-    "static/js/main.672d5ac3.js"
+    "static/css/main.9fe9631b.css",
+    "static/js/main.e96c91c6.js"
   ]
 }
