@@ -21,7 +21,7 @@ function Footer() {
       name: 'Email',
       src: EmailIcon,
       url: "mailto:vallab.v@gmail.com"
-     }    
+     },
   ]
 
   return(
