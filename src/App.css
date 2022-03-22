@@ -249,6 +249,8 @@ text-align: right;
 
 .projText {
   color: white;
+  font-size: 20px;
+  text-align: center;
 }
 
 .projDes {
@@ -379,8 +381,9 @@ textarea {
   justify-content: space-around;
 }
 
-.blog-card img {
-  width: 100%;
+.img{
+  padding: 20px;
+  margin: 20px;
 }
 
 .blog-content {
@@ -405,6 +408,12 @@ textarea {
 
 .arrow {
   display: none;
+}
+
+.aTag {
+  padding-top: 20px;
+  font-size: 10px bold;
+  text-decoration: underline;
 }
 
 .blog-link:hover .arrow {

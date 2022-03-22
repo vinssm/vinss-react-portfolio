@@ -55,13 +55,13 @@ function Portfolio() {
         <div className="proj">
           {projects.map((project, i) => 
             <div className="projs" key={i}>
-              <img src={require(`../assets/images/${project.image}`)} alt={project.alt} />
               <h3>{project.title}</h3>
-              <div className="projs">                       
+              <img className='img' src={require(`../assets/images/${project.image}`)} alt={project.alt} />              
+              <div>                       
                 <p className="projText projDes">{project.description}</p>
                 <p className="projText projDes">{project.technologies}</p>                               
               </div>
-              <a href={project.url} target="_blank">View Site</a> 
+              <a className='aTag'  href={project.url} target="_blank"> <b>View Site</b></a> 
             </div>
           )}
             </div>
